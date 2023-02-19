@@ -9,8 +9,8 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 5,
-                "rowStart": 5,
+                "rowEnd": 7,
+                "rowStart": 7,
                 "props": {
                     "text": "\"Contact\""
                 },
@@ -21,8 +21,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 8,
-                "rowEnd": 13,
-                "rowStart": 11,
+                "rowEnd": 15,
+                "rowStart": 13,
                 "props": {
                     "label": "\"Address\""
                 },
@@ -34,8 +34,8 @@
                 "type": "text-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 3,
-                "rowStart": 1,
+                "rowEnd": 5,
+                "rowStart": 3,
                 "props": {
                     "label": "\"Name\""
                 },
@@ -43,14 +43,14 @@
                 "variable": "customer.name"
             },
             "0d2c5a8c-f186-4bc8-b164-388a35373a6c": {
-                "id": "eba12aeb-5fe0-4442-9d85-58943e1958a5",
+                "id": "0d2c5a8c-f186-4bc8-b164-388a35373a6c",
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
                 "rowEnd": 0,
                 "rowStart": 0,
                 "props": {
-                    "text": "\"General\""
+                    "text": "\"New Customer\""
                 },
                 "events": {}
             },
@@ -59,8 +59,8 @@
                 "type": "dropdown-input",
                 "colEnd": 3,
                 "colStart": 0,
-                "rowEnd": 13,
-                "rowStart": 11,
+                "rowEnd": 15,
+                "rowStart": 13,
                 "props": {
                     "label": "\"Country\"",
                     "options": "countries"
@@ -73,8 +73,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 3,
-                "rowStart": 1,
+                "rowEnd": 5,
+                "rowStart": 3,
                 "props": {
                     "label": "\"EIN\""
                 },
@@ -86,8 +86,8 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 10,
-                "rowStart": 10,
+                "rowEnd": 12,
+                "rowStart": 12,
                 "props": {
                     "text": "\"Address\""
                 },
@@ -98,8 +98,8 @@
                 "type": "email-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 8,
-                "rowStart": 6,
+                "rowEnd": 10,
+                "rowStart": 8,
                 "props": {
                     "label": "\"Email\""
                 },
@@ -111,8 +111,8 @@
                 "type": "phone-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 8,
-                "rowStart": 6,
+                "rowEnd": 10,
+                "rowStart": 8,
                 "props": {
                     "label": "\"Phone number\""
                 },
@@ -124,8 +124,8 @@
                 "type": "click-input",
                 "colEnd": 11,
                 "colStart": 9,
-                "rowEnd": 16,
-                "rowStart": 15,
+                "rowEnd": 18,
+                "rowStart": 17,
                 "props": {
                     "label": "\"Register customer\""
                 },
@@ -134,17 +134,29 @@
                 }
             },
             "f42e1664-73ea-4eaf-bc87-f41ee77ccf20": {
-                "id": "870dbe84-6fee-4f74-8954-e0085b4c7612",
+                "id": "f42e1664-73ea-4eaf-bc87-f41ee77ccf20",
                 "type": "text-input",
                 "colEnd": 7,
                 "colStart": 4,
-                "rowEnd": 13,
-                "rowStart": 11,
+                "rowEnd": 15,
+                "rowStart": 13,
                 "props": {
                     "label": "\"Zip\""
                 },
                 "events": {},
                 "variable": "customer.zip"
+            },
+            "827643d3-0be9-43e4-bd76-aed61ee6eccd": {
+                "id": "827643d3-0be9-43e4-bd76-aed61ee6eccd",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 2,
+                "rowStart": 2,
+                "props": {
+                    "text": "\"General\""
+                },
+                "events": {}
             }
         }
     }

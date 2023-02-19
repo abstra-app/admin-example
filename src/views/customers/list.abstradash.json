@@ -1,0 +1,33 @@
+{
+    "name": "List Customers",
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "f36b9e74-6541-4fb2-b780-568b21aaaf5b": {
+                "id": "f36b9e74-6541-4fb2-b780-568b21aaaf5b",
+                "type": "pandas-output",
+                "colEnd": 11,
+                "colStart": 0,
+                "rowEnd": 16,
+                "rowStart": 2,
+                "props": {
+                    "df": "customers"
+                },
+                "events": {}
+            },
+            "603579ad-fd45-4d08-bd43-519c37b4e070": {
+                "id": "603579ad-fd45-4d08-bd43-519c37b4e070",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 1,
+                "rowStart": 0,
+                "props": {
+                    "text": "\"Customers\""
+                },
+                "events": {}
+            }
+        }
+    }
+}
