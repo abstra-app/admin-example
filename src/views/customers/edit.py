@@ -15,3 +15,4 @@ countries = [
 def update_customer():
     print(customer)
     customer.save()
+    __redirect__("views/customers/list")

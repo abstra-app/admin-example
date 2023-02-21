@@ -12,3 +12,4 @@ customer = Customer()
 def register_customer():
     print(customer)
     customer.save(force_insert=True)
+    __redirect__("views/customers/list")

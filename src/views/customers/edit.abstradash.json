@@ -127,7 +127,7 @@
                 "rowEnd": 18,
                 "rowStart": 17,
                 "props": {
-                    "label": "\"Register customer\""
+                    "label": "\"Update customer\""
                 },
                 "events": {
                     "click": "register_customer()"
