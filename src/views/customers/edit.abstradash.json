@@ -45,12 +45,12 @@
             "0d2c5a8c-f186-4bc8-b164-388a35373a6c": {
                 "id": "0d2c5a8c-f186-4bc8-b164-388a35373a6c",
                 "type": "text-output",
-                "colEnd": 2,
+                "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 0,
-                "rowStart": 0,
+                "rowEnd": 23,
+                "rowStart": 22,
                 "props": {
-                    "text": "\"New Customer\""
+                    "text": "f\"{customer.name}'s Projects\""
                 },
                 "events": {}
             },
@@ -124,13 +124,13 @@
                 "type": "click-input",
                 "colEnd": 11,
                 "colStart": 9,
-                "rowEnd": 18,
-                "rowStart": 17,
+                "rowEnd": 23,
+                "rowStart": 22,
                 "props": {
-                    "label": "\"Update customer\""
+                    "label": "\"Add new project\""
                 },
                 "events": {
-                    "click": "register_customer()"
+                    "click": "__redirect__(\"views/projects/new\")"
                 }
             },
             "f42e1664-73ea-4eaf-bc87-f41ee77ccf20": {
@@ -157,6 +157,44 @@
                     "text": "\"General\""
                 },
                 "events": {}
+            },
+            "6c88e031-c2c6-43d4-8229-edb4c36f5fc4": {
+                "id": "0d2c5a8c-f186-4bc8-b164-388a35373a6c",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 0,
+                "rowStart": 0,
+                "props": {
+                    "text": "\"Edit Customer\""
+                },
+                "events": {}
+            },
+            "94875ab3-7b4e-4ea2-91a2-edc7095a8328": {
+                "id": "94875ab3-7b4e-4ea2-91a2-edc7095a8328",
+                "type": "pandas-output",
+                "colEnd": 11,
+                "colStart": 0,
+                "rowEnd": 44,
+                "rowStart": 24,
+                "props": {
+                    "df": "projects"
+                },
+                "events": {}
+            },
+            "11bf9a9d-f66e-4014-a42a-b6cdeb8949f0": {
+                "id": "11bf9a9d-f66e-4014-a42a-b6cdeb8949f0",
+                "type": "click-input",
+                "colEnd": 11,
+                "colStart": 9,
+                "rowEnd": 18,
+                "rowStart": 17,
+                "props": {
+                    "label": "\"Update customer\""
+                },
+                "events": {
+                    "click": "register_customer()"
+                }
             }
         }
     }
