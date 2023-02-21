@@ -1,0 +1,163 @@
+{
+    "name": "Edit Customer",
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "eba12aeb-5fe0-4442-9d85-58943e1958a5": {
+                "id": "eba12aeb-5fe0-4442-9d85-58943e1958a5",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 7,
+                "rowStart": 7,
+                "props": {
+                    "text": "\"Contact\""
+                },
+                "events": {}
+            },
+            "870dbe84-6fee-4f74-8954-e0085b4c7612": {
+                "id": "870dbe84-6fee-4f74-8954-e0085b4c7612",
+                "type": "text-input",
+                "colEnd": 11,
+                "colStart": 8,
+                "rowEnd": 15,
+                "rowStart": 13,
+                "props": {
+                    "label": "\"Address\""
+                },
+                "events": {},
+                "variable": "customer.address"
+            },
+            "ef81fd7a-6163-48b0-8baf-663fd79e7a1e": {
+                "id": "ef81fd7a-6163-48b0-8baf-663fd79e7a1e",
+                "type": "text-input",
+                "colEnd": 5,
+                "colStart": 0,
+                "rowEnd": 5,
+                "rowStart": 3,
+                "props": {
+                    "label": "\"Name\""
+                },
+                "events": {},
+                "variable": "customer.name"
+            },
+            "0d2c5a8c-f186-4bc8-b164-388a35373a6c": {
+                "id": "0d2c5a8c-f186-4bc8-b164-388a35373a6c",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 0,
+                "rowStart": 0,
+                "props": {
+                    "text": "\"New Customer\""
+                },
+                "events": {}
+            },
+            "bc9411c6-0545-409d-8470-6abe904d3a9c": {
+                "id": "bc9411c6-0545-409d-8470-6abe904d3a9c",
+                "type": "dropdown-input",
+                "colEnd": 3,
+                "colStart": 0,
+                "rowEnd": 15,
+                "rowStart": 13,
+                "props": {
+                    "label": "\"Country\"",
+                    "options": "countries"
+                },
+                "events": {},
+                "variable": "customer.country"
+            },
+            "6ba407d4-c5bc-453b-b16f-31b77df55355": {
+                "id": "6ba407d4-c5bc-453b-b16f-31b77df55355",
+                "type": "text-input",
+                "colEnd": 11,
+                "colStart": 6,
+                "rowEnd": 5,
+                "rowStart": 3,
+                "props": {
+                    "label": "\"EIN\""
+                },
+                "events": {},
+                "variable": "customer.ein"
+            },
+            "fc20524c-c9d6-47dd-8972-0a41a8a93a21": {
+                "id": "fc20524c-c9d6-47dd-8972-0a41a8a93a21",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 12,
+                "rowStart": 12,
+                "props": {
+                    "text": "\"Address\""
+                },
+                "events": {}
+            },
+            "548b6543-a524-462c-b715-999f2e072386": {
+                "id": "548b6543-a524-462c-b715-999f2e072386",
+                "type": "email-input",
+                "colEnd": 5,
+                "colStart": 0,
+                "rowEnd": 10,
+                "rowStart": 8,
+                "props": {
+                    "label": "\"Email\""
+                },
+                "events": {},
+                "variable": "customer.email"
+            },
+            "91d5e900-52be-4cad-95e2-d20faad3fe38": {
+                "id": "91d5e900-52be-4cad-95e2-d20faad3fe38",
+                "type": "phone-input",
+                "colEnd": 11,
+                "colStart": 6,
+                "rowEnd": 10,
+                "rowStart": 8,
+                "props": {
+                    "label": "\"Phone number\""
+                },
+                "events": {},
+                "variable": "customer.phone"
+            },
+            "ff684843-4bc9-4485-853d-91962f4a352a": {
+                "id": "ff684843-4bc9-4485-853d-91962f4a352a",
+                "type": "click-input",
+                "colEnd": 11,
+                "colStart": 9,
+                "rowEnd": 18,
+                "rowStart": 17,
+                "props": {
+                    "label": "\"Register customer\""
+                },
+                "events": {
+                    "click": "register_customer()"
+                }
+            },
+            "f42e1664-73ea-4eaf-bc87-f41ee77ccf20": {
+                "id": "f42e1664-73ea-4eaf-bc87-f41ee77ccf20",
+                "type": "text-input",
+                "colEnd": 7,
+                "colStart": 4,
+                "rowEnd": 15,
+                "rowStart": 13,
+                "props": {
+                    "label": "\"Zip\""
+                },
+                "events": {},
+                "variable": "customer.zip"
+            },
+            "827643d3-0be9-43e4-bd76-aed61ee6eccd": {
+                "id": "827643d3-0be9-43e4-bd76-aed61ee6eccd",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 2,
+                "rowStart": 2,
+                "props": {
+                    "text": "\"General\""
+                },
+                "events": {}
+            }
+        }
+    }
+}

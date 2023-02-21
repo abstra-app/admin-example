@@ -14,7 +14,9 @@
                 "props": {
                     "df": "customers"
                 },
-                "events": {}
+                "events": {
+                    "row-click": "__redirect__(\"views/customers/edit\", { 'id': __event__[\"payload\"][\"data\"][\"id\"]})"
+                }
             },
             "603579ad-fd45-4d08-bd43-519c37b4e070": {
                 "id": "603579ad-fd45-4d08-bd43-519c37b4e070",

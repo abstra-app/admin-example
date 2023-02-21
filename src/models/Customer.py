@@ -1,8 +1,8 @@
 import peewee as pw
-import api.db as db
+from models.Base import Base
 
 
-class Customer(pw.Model):
+class Customer(Base):
     name = pw.CharField()
     ein = pw.CharField()
     email = pw.CharField()
@@ -10,6 +10,3 @@ class Customer(pw.Model):
     country = pw.CharField()
     zip = pw.CharField()
     address = pw.CharField()
-
-    class Meta:
-        database = db.db
