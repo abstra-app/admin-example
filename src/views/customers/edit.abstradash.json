@@ -180,7 +180,9 @@
                 "props": {
                     "df": "projects"
                 },
-                "events": {}
+                "events": {
+                    "row-click": "__redirect__(\n  \"views/projects/edit\",\n  {\n    'id': __event__['payload']['data']['id']\n  }\n)"
+                }
             },
             "11bf9a9d-f66e-4014-a42a-b6cdeb8949f0": {
                 "id": "11bf9a9d-f66e-4014-a42a-b6cdeb8949f0",

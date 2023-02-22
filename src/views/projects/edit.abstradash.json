@@ -1,0 +1,33 @@
+{
+    "name": "Project",
+    "layout": {
+        "props": {},
+        "version": "0.1",
+        "widgets": {
+            "4ab527e4-88a9-4eb4-9ea8-a1e2395c9568": {
+                "id": "4ab527e4-88a9-4eb4-9ea8-a1e2395c9568",
+                "type": "text-output",
+                "colEnd": 2,
+                "colStart": 0,
+                "rowEnd": 4,
+                "rowStart": 3,
+                "props": {
+                    "text": "\"Milestones\""
+                },
+                "events": {}
+            },
+            "9db99810-0961-4f1b-96b7-dbac376e9ac9": {
+                "id": "9db99810-0961-4f1b-96b7-dbac376e9ac9",
+                "type": "text-output",
+                "colEnd": 4,
+                "colStart": 0,
+                "rowEnd": 1,
+                "rowStart": 0,
+                "props": {
+                    "text": "f'Project \"{project.name}\"'"
+                },
+                "events": {}
+            }
+        }
+    }
+}
