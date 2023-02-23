@@ -3,6 +3,14 @@
     "layout": {
         "props": {},
         "version": "0.1",
+        "blocks": {
+            "sdfsdf": {
+                "type": "if",
+                "condition": "customer",
+                "rowStart": 5,
+                "rowEnd": 4
+            }
+        },
         "widgets": {
             "eba12aeb-5fe0-4442-9d85-58943e1958a5": {
                 "id": "eba12aeb-5fe0-4442-9d85-58943e1958a5",

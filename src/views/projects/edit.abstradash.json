@@ -4,18 +4,6 @@
         "props": {},
         "version": "0.1",
         "widgets": {
-            "4ab527e4-88a9-4eb4-9ea8-a1e2395c9568": {
-                "id": "4ab527e4-88a9-4eb4-9ea8-a1e2395c9568",
-                "type": "text-output",
-                "colEnd": 2,
-                "colStart": 0,
-                "rowEnd": 4,
-                "rowStart": 3,
-                "props": {
-                    "text": "\"Milestones\""
-                },
-                "events": {}
-            },
             "9db99810-0961-4f1b-96b7-dbac376e9ac9": {
                 "id": "9db99810-0961-4f1b-96b7-dbac376e9ac9",
                 "type": "text-output",
@@ -25,6 +13,32 @@
                 "rowStart": 0,
                 "props": {
                     "text": "f'Project \"{project.name}\"'"
+                },
+                "events": {}
+            },
+            "edf8606a-b922-4171-8654-7f7081771566": {
+                "id": "edf8606a-b922-4171-8654-7f7081771566",
+                "type": "kanban-board-input",
+                "colEnd": 11,
+                "colStart": 0,
+                "rowEnd": 48,
+                "rowStart": 5,
+                "props": {
+                    "label": "\"Milestones\"",
+                    "initial_value": "{\n\n}"
+                },
+                "events": {},
+                "variable": "board"
+            },
+            "aef2e29b-9d80-4c09-8644-41f9a0b7abb7": {
+                "id": "aef2e29b-9d80-4c09-8644-41f9a0b7abb7",
+                "type": "click-input",
+                "colEnd": 11,
+                "colStart": 9,
+                "rowEnd": 4,
+                "rowStart": 3,
+                "props": {
+                    "label": "\"Add milestone\""
                 },
                 "events": {}
             }

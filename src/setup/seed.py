@@ -36,17 +36,21 @@ def run():
 
         for _ in range(random.randint(5, 10)):
             project = Project.create(name="Test Project", customer=customer)
-            milestone = ProjectMilestone.create(
-                name=fake.text(20),
-                project=project,
-                description=fake.paragraph(),
-                deadline=fake.date_time(),
-            )
-            ProjectMilestoneTask.create(
-                name=fake.text(20),
-                description=fake.paragraph(),
-                deadline=fake.date_time(),
-                start=fake.date_time(),
-                end=fake.date_time(),
-                project_milestone=milestone,
-            )
+
+            for _ in range(random.randint(5, 10)):
+                milestone = ProjectMilestone.create(
+                    name=fake.text(20),
+                    project=project,
+                    description=fake.paragraph(),
+                    deadline=fake.date_time(),
+                )
+
+                for _ in range(random.randint(5, 10)):
+                    ProjectMilestoneTask.create(
+                        name=fake.text(20),
+                        description=fake.paragraph(),
+                        deadline=fake.date_time(),
+                        start=fake.date_time(),
+                        end=fake.date_time(),
+                        project_milestone=milestone,
+                    )
