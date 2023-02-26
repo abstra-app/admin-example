@@ -2,5 +2,8 @@
     "workspace": {
         "root": "src",
         "theme": "white"
+    },
+    "packages": {
+        "file": "requirements.txt"
     }
 }
