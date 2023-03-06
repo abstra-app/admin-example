@@ -138,7 +138,7 @@
                     "label": "\"Add new project\""
                 },
                 "events": {
-                    "click": "__redirect__(\"views/projects/new\")"
+                    "click": "redirect(\"views/projects/new\")"
                 }
             },
             "f42e1664-73ea-4eaf-bc87-f41ee77ccf20": {
@@ -189,7 +189,7 @@
                     "df": "projects"
                 },
                 "events": {
-                    "row-click": "__redirect__(\n  \"views/projects/edit\",\n  {\n    'id': __event__['payload']['data']['id']\n  }\n)"
+                    "row-click": "redirect(\n  \"views/projects/edit\",\n  {\n    'id': __event__['payload']['data']['id']\n  }\n)"
                 }
             },
             "11bf9a9d-f66e-4014-a42a-b6cdeb8949f0": {

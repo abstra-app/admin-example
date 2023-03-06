@@ -15,7 +15,7 @@
                     "df": "customers"
                 },
                 "events": {
-                    "row-click": "__redirect__(\"views/customers/edit\", { 'id': __event__[\"payload\"][\"data\"][\"id\"]})"
+                    "row-click": "redirect(\n  \"views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)"
                 }
             },
             "603579ad-fd45-4d08-bd43-519c37b4e070": {

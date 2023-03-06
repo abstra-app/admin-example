@@ -1,15 +1,16 @@
 from models.Project import Project
 from playhouse.shortcuts import model_to_dict
 import pandas as pd
+from abstra.dashes import redirect, query_params
 
 
-project_id = __query_params__["id"]
+project_id = query_params["id"]
 project = Project.get_by_id(project_id)
 
 
 def update_project():
     project.save()
-    __redirect__("views/customers/edit", {"id": project.customer_id})
+    redirect("views/customers/edit", {"id": project.customer_id})
 
 board = {
     "type": "kanban-board",
