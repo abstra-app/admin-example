@@ -26,7 +26,7 @@
                 "rowEnd": 1,
                 "rowStart": 0,
                 "props": {
-                    "text": "\"Customers\""
+                    "text": "f\"Customers ({len(customers)})\""
                 },
                 "events": {}
             }
