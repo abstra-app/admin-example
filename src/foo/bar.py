@@ -3,6 +3,7 @@
 # 🔄 Code here is executed at each restart of the app
 
 # 📍 This is the place where you set the initial state of your app...
+import abstra.dashes as ad
 
 name = ""
 counter = 0
@@ -11,16 +12,18 @@ counter = 0
 def get_greeting():
     text = "# Welcome to your first Dash 🎉\n"
 
-    if name: 
+    if name:
         text += f"## Nice meeting you, {name}!\n"
 
     return text
+
 
 def get_button_label():
     if counter == 0:
         return "Click me!"
 
     return f"You've clicked the button {counter} times!"
+
 
 # ...or that handle user input
 def increment():
@@ -29,3 +32,7 @@ def increment():
 
 
 # 🔗 Everything defined here is available to use on the Layout Editor
+
+
+def click():
+    ad.redirect("views/customers/new")

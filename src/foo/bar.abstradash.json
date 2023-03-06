@@ -68,6 +68,20 @@
                     "text": "name"
                 },
                 "events": {}
+            },
+            "4e756e6f-28b4-4139-a6d2-67206976794d": {
+                "id": "4e756e6f-28b4-4139-a6d2-67206976794d",
+                "type": "click-input",
+                "colEnd": 9,
+                "colStart": 8,
+                "rowEnd": 17,
+                "rowStart": 16,
+                "props": {
+                    "label": "\"Click here!\""
+                },
+                "events": {
+                    "click": "click()"
+                }
             }
         }
     }
