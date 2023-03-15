@@ -9,13 +9,13 @@
                 "type": "pandas-output",
                 "colEnd": 11,
                 "colStart": 0,
-                "rowEnd": 16,
-                "rowStart": 2,
+                "rowEnd": 17,
+                "rowStart": 3,
                 "props": {
                     "df": "customers"
                 },
                 "events": {
-                    "row-click": "redirect(\n  \"/views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)"
+                    "row-click": "redirect(\n  \"views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)"
                 }
             },
             "603579ad-fd45-4d08-bd43-519c37b4e070": {
