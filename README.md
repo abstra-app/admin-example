@@ -19,6 +19,5 @@ pip install -r requirements.txt
 Setup an empty database
 
 ```sh
-cd src
 python -c 'import setup.seed as ss;ss.run()'
 ```
