@@ -10,7 +10,7 @@ project = Project.get_by_id(project_id)
 
 def update_project():
     project.save()
-    redirect("views/customers/edit", {"id": project.customer_id})
+    redirect("/views/customers/edit", {"id": project.customer_id})
 
 
 board = {

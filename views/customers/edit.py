@@ -19,4 +19,4 @@ countries = [c["name"] for c in json.load(open("data/countries.json", "r"))]
 def update_customer():
     print(customer)
     customer.save()
-    redirect("views/customers/list")
+    redirect("/views/customers/list")

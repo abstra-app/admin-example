@@ -10,4 +10,4 @@ customer = Customer()
 def register_customer():
     print(customer)
     customer.save(force_insert=True)
-    redirect("views/customers/list")
+    redirect("/views/customers/list")
