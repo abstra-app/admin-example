@@ -160,5 +160,6 @@
             }
         }
     },
-    "show_sidebar": true
+    "show_sidebar": true,
+    "title": "New Customer"
 }

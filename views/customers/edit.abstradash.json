@@ -208,5 +208,6 @@
             }
         }
     },
-    "show_sidebar": false
+    "show_sidebar": false,
+    "title": "Edit Customer"
 }

@@ -29,8 +29,23 @@
                     "text": "f\"Customers ({len(customers)})\""
                 },
                 "events": {}
+            },
+            "43c081d8-9979-410e-bed5-5a45282d3086": {
+                "id": "43c081d8-9979-410e-bed5-5a45282d3086",
+                "type": "click-input",
+                "colEnd": 11,
+                "colStart": 9,
+                "rowEnd": 1,
+                "rowStart": 0,
+                "props": {
+                    "label": "\"Add a new Customer\""
+                },
+                "events": {
+                    "click": "redirect(\"/views/customers/new\")"
+                }
             }
         }
     },
-    "show_sidebar": true
+    "show_sidebar": true,
+    "title": "List Customers"
 }
