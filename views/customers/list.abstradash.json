@@ -31,5 +31,6 @@
                 "events": {}
             }
         }
-    }
+    },
+    "show_sidebar": true
 }
