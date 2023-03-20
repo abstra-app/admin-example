@@ -1,6 +1,10 @@
 from models.Customer import Customer
 import json
-from abstra.dashes import redirect
+from abstra.dashes import redirect, get_user
+
+user = get_user()
+if '@abstra.app' not in user.email:
+    exit()
 
 countries = [c["name"] for c in json.load(open("data/countries.json", "r"))]
 

@@ -3,7 +3,11 @@ from models.Project import Project
 import json
 from playhouse.shortcuts import model_to_dict
 import pandas as pd
-from abstra.dashes import redirect, get_query_params
+from abstra.dashes import redirect, get_query_params, get_user
+
+user = get_user()
+if '@abstra.app' not in user.email:
+    exit()
 
 
 customer_id = get_query_params()["id"]
