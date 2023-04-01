@@ -12,10 +12,12 @@
                 "rowEnd": 17,
                 "rowStart": 3,
                 "props": {
-                    "df": "customers"
+                    "df": "customers",
+                    "actions": "[\"Edit\", \"Delete\"]"
                 },
                 "events": {
-                    "row-click": "redirect(\n  \"/views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)"
+                    "row-click": "redirect(\n  \"/views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)",
+                    "action-click": "row_action(__event__)"
                 }
             },
             "603579ad-fd45-4d08-bd43-519c37b4e070": {
