@@ -17,8 +17,8 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 7,
-                "rowStart": 7,
+                "rowEnd": 10,
+                "rowStart": 9,
                 "props": {
                     "text": "\"Contact\""
                 },
@@ -29,8 +29,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 8,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 19,
+                "rowStart": 17,
                 "props": {
                     "label": "\"Address\""
                 },
@@ -42,8 +42,8 @@
                 "type": "text-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 5,
-                "rowStart": 3,
+                "rowEnd": 7,
+                "rowStart": 5,
                 "props": {
                     "label": "\"Name\""
                 },
@@ -55,8 +55,8 @@
                 "type": "text-output",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 23,
-                "rowStart": 22,
+                "rowEnd": 27,
+                "rowStart": 26,
                 "props": {
                     "text": "f\"{customer.name}'s Projects\""
                 },
@@ -67,8 +67,8 @@
                 "type": "dropdown-input",
                 "colEnd": 3,
                 "colStart": 0,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 19,
+                "rowStart": 17,
                 "props": {
                     "label": "\"Country\"",
                     "options": "countries"
@@ -81,8 +81,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 5,
-                "rowStart": 3,
+                "rowEnd": 7,
+                "rowStart": 5,
                 "props": {
                     "label": "\"EIN\""
                 },
@@ -94,8 +94,8 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 12,
-                "rowStart": 12,
+                "rowEnd": 16,
+                "rowStart": 15,
                 "props": {
                     "text": "\"Address\""
                 },
@@ -106,8 +106,8 @@
                 "type": "email-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 10,
-                "rowStart": 8,
+                "rowEnd": 13,
+                "rowStart": 11,
                 "props": {
                     "label": "\"Email\""
                 },
@@ -119,8 +119,8 @@
                 "type": "phone-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 10,
-                "rowStart": 8,
+                "rowEnd": 13,
+                "rowStart": 11,
                 "props": {
                     "label": "\"Phone number\""
                 },
@@ -132,8 +132,8 @@
                 "type": "click-input",
                 "colEnd": 11,
                 "colStart": 9,
-                "rowEnd": 23,
-                "rowStart": 22,
+                "rowEnd": 27,
+                "rowStart": 26,
                 "props": {
                     "label": "\"Add new project\""
                 },
@@ -146,8 +146,8 @@
                 "type": "text-input",
                 "colEnd": 7,
                 "colStart": 4,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 19,
+                "rowStart": 17,
                 "props": {
                     "label": "\"Zip\""
                 },
@@ -159,7 +159,7 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 2,
+                "rowEnd": 3,
                 "rowStart": 2,
                 "props": {
                     "text": "\"General\""
@@ -167,11 +167,11 @@
                 "events": {}
             },
             "6c88e031-c2c6-43d4-8229-edb4c36f5fc4": {
-                "id": "0d2c5a8c-f186-4bc8-b164-388a35373a6c",
+                "id": "6c88e031-c2c6-43d4-8229-edb4c36f5fc4",
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 0,
+                "rowEnd": 1,
                 "rowStart": 0,
                 "props": {
                     "text": "\"Edit Customer\""
@@ -183,8 +183,8 @@
                 "type": "pandas-output",
                 "colEnd": 11,
                 "colStart": 0,
-                "rowEnd": 44,
-                "rowStart": 24,
+                "rowEnd": 48,
+                "rowStart": 28,
                 "props": {
                     "df": "projects"
                 },
@@ -197,13 +197,13 @@
                 "type": "click-input",
                 "colEnd": 11,
                 "colStart": 9,
-                "rowEnd": 18,
-                "rowStart": 17,
+                "rowEnd": 22,
+                "rowStart": 21,
                 "props": {
                     "label": "\"Update customer\""
                 },
                 "events": {
-                    "click": "register_customer()"
+                    "click": "update_customer()"
                 }
             }
         }

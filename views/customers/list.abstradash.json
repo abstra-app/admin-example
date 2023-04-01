@@ -13,7 +13,8 @@
                 "rowStart": 3,
                 "props": {
                     "df": "customers",
-                    "actions": "[\"Edit\", \"Delete\"]"
+                    "actions": "[\"Edit\", \"Delete\"]",
+                    "filterable": "True"
                 },
                 "events": {
                     "row-click": "redirect(\n  \"/views/customers/edit\",\n  {\n    'id': __event__[\"payload\"][\"data\"][\"id\"]\n  }\n)",
