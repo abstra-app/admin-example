@@ -9,7 +9,7 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 7,
+                "rowEnd": 8,
                 "rowStart": 7,
                 "props": {
                     "text": "\"Contact\""
@@ -21,8 +21,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 8,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 16,
+                "rowStart": 14,
                 "props": {
                     "label": "\"Address\""
                 },
@@ -34,8 +34,8 @@
                 "type": "text-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 5,
-                "rowStart": 3,
+                "rowEnd": 6,
+                "rowStart": 4,
                 "props": {
                     "label": "\"Name\""
                 },
@@ -47,7 +47,7 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 0,
+                "rowEnd": 1,
                 "rowStart": 0,
                 "props": {
                     "text": "\"New Customer\""
@@ -59,8 +59,8 @@
                 "type": "dropdown-input",
                 "colEnd": 3,
                 "colStart": 0,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 16,
+                "rowStart": 14,
                 "props": {
                     "label": "\"Country\"",
                     "options": "countries"
@@ -73,8 +73,8 @@
                 "type": "text-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 5,
-                "rowStart": 3,
+                "rowEnd": 6,
+                "rowStart": 4,
                 "props": {
                     "label": "\"EIN\""
                 },
@@ -86,7 +86,7 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 12,
+                "rowEnd": 13,
                 "rowStart": 12,
                 "props": {
                     "text": "\"Address\""
@@ -98,8 +98,8 @@
                 "type": "email-input",
                 "colEnd": 5,
                 "colStart": 0,
-                "rowEnd": 10,
-                "rowStart": 8,
+                "rowEnd": 11,
+                "rowStart": 9,
                 "props": {
                     "label": "\"Email\""
                 },
@@ -111,8 +111,8 @@
                 "type": "phone-input",
                 "colEnd": 11,
                 "colStart": 6,
-                "rowEnd": 10,
-                "rowStart": 8,
+                "rowEnd": 11,
+                "rowStart": 9,
                 "props": {
                     "label": "\"Phone number\""
                 },
@@ -124,8 +124,8 @@
                 "type": "click-input",
                 "colEnd": 11,
                 "colStart": 9,
-                "rowEnd": 18,
-                "rowStart": 17,
+                "rowEnd": 19,
+                "rowStart": 18,
                 "props": {
                     "label": "\"Register customer\""
                 },
@@ -138,8 +138,8 @@
                 "type": "text-input",
                 "colEnd": 7,
                 "colStart": 4,
-                "rowEnd": 15,
-                "rowStart": 13,
+                "rowEnd": 16,
+                "rowStart": 14,
                 "props": {
                     "label": "\"Zip\""
                 },
@@ -151,7 +151,7 @@
                 "type": "text-output",
                 "colEnd": 2,
                 "colStart": 0,
-                "rowEnd": 2,
+                "rowEnd": 3,
                 "rowStart": 2,
                 "props": {
                     "text": "\"General\""
